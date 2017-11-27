@@ -506,8 +506,9 @@ public class GameModel{
 			}
 		}
 		catch(Exception e) {
-			System.out.println("Error; Save folder does not exist" + e.toString());
+			System.out.println("Error; Save folder does not exist.");
 			System.out.println("Creating save folder...");
+			System.out.println("--------------------------------------------------");
 			File dir = new File(folderPath);
 			dir.mkdir();
 		}

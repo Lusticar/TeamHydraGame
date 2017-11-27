@@ -184,6 +184,11 @@ public class Monsters implements Serializable{
 		//Add Monster Health
 		returnString += "Health: " + getMonsterCurrentHealth() + "/" + getMonsterMaxHealth();
 		
+		//Add Monster Combat Stats
+		returnString += "\nAttack: " + getMonsterDamage() + " - Accuracy: " + (getMonsterHitPercentage()*100) + "%";
+		
+		//Add Monster Description
+		returnString += "\n" + getMonsterDesc() + "\n";
 		
 		return returnString;
 	}
