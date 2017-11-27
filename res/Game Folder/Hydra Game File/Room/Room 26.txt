@@ -8,7 +8,7 @@ Room Connection:
 R25:East
 R27:South
 Room Access:
-R06:R27
+P06:R27
 Room Item:
 I05
 Room Monster:

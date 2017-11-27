@@ -5,7 +5,7 @@ I20
 Item Description:
 Ammo for VECTOR V5
 Item Type:
-Ammo 
+Ammo
 Item Action Value:
 I03
 Item Amount:
