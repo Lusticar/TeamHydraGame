@@ -125,7 +125,40 @@ public class Rooms implements Serializable{
 	 *Get an arraylist of all the item id in the room
 	 */
 	public void addRoomItem(Items item) {
-		this.roomItem.add(item);
+		if(item.getItemType().equalsIgnoreCase("Ammo")) {
+			boolean itemFound= false;
+			String itemName = "";
+			for(int x = 0; x < roomItem.size(); x++) {
+				itemName = roomItem.get(x).getItemName();
+				if(roomItem.get(x).getItemName().equalsIgnoreCase(item.getItemName())) {
+					itemFound = true;
+					for(int y = 0; y < item.getItemAmount();y++) {
+						roomItem.get(x).increaseItemAmount();
+					}
+				}
+			}
+
+			if(!itemFound) {
+				int itemAmount = item.getItemAmount()-1;
+				Items newItem = item;
+				newItem.setItemAmount(1);
+				this.roomItem.add(newItem);
+				int roomItemNum= 0;
+				for(int x = 0; x < roomItem.size(); x++) {
+					if(roomItem.get(x).getItemName().equalsIgnoreCase(item.getItemName())) {
+						roomItemNum = x;
+						break;
+					}
+				}
+				for(int y = 0; y < itemAmount;y++) {
+					roomItem.get(roomItemNum).increaseItemAmount();
+				}
+			}
+
+
+		}else {
+			this.roomItem.add(item);
+		}
 	}
 	public void removeRoomItemId(Items item) {
 		boolean remove = false;

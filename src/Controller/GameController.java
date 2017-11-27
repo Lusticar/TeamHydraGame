@@ -127,7 +127,7 @@ public class GameController {
 		case "Use Item Puzzle":
 			output += "Inventory:\n";
 			output += model.getPlayer().getInventoryListString();
-			output += "\nWhich item do you want to use? Type \"Exit\" to cancel.";
+			output += "\nWhich item do you want to use? Type \"Exit\" to cancel.\n";
 			break;	
 		case "Combat Menu":
 			output += "- - - - -           ENCOUNTER!           - - - - -\n";
@@ -443,11 +443,13 @@ public class GameController {
 
 				if(model.getSaveList().get(userInputInt) != null) {
 					model.loadGameSaveData(model.getSaveList().get(userInputInt));
-					view.println("\nSuccessfully loaded Slot " + userInputInt + "/n");
+					view.println("Successfully loaded Slot " + userInputInt);
+					view.println("--------------------------------------------------");
 					model.setState("Action Menu");
 				}
 				else {
-					view.println("No save data exists in Slot " + userInputInt + "\n");
+					view.println("No save data exists in Slot " + userInputInt);
+					view.println("--------------------------------------------------");
 				}
 			}else {
 				view.println("Invalid Input");
@@ -469,11 +471,13 @@ public class GameController {
 		switch(userInput.toLowerCase()) {
 		case "yes" : case "1":
 			view.println("Save Successful");
+			view.println("--------------------------------------------------");
 			model.saveGameData(model.getSaveData());
 			model.setState("Action Menu");
 			break;
 		case "no" : case "2":
 			view.println("Overwrite cancelled");
+			view.println("--------------------------------------------------");
 			model.setState("Action Menu");
 			break;
 		default:
@@ -552,7 +556,7 @@ public class GameController {
 					model.setLootList(model.getMonsterLootList());
 					if(!model.getLootList().isEmpty()) {
 						for(int x = 0; x < model.getLootList().size();x++) {
-							view.println("The monster drop " + model.getLoot().getItemName() +" on the floor of the room");
+							view.println("The enemy drops " + model.getLoot().getItemName() +" on the floor of the room");
 							model.getPlayer().getCurrentRoom().addRoomItem(model.getLoot());
 							model.removeLoot();
 						}
@@ -608,7 +612,7 @@ public class GameController {
 					model.setLootList(model.getMonsterLootList());
 					if(!model.getLootList().isEmpty()) {
 						for(int x = 0; x < model.getLootList().size();x++) {
-							view.println("The monster drop " + model.getLoot().getItemName() +" on the floor of the room");
+							view.println("The enemy drops " + model.getLoot().getItemName() +" on the floor of the room");
 							model.getPlayer().getCurrentRoom().addRoomItem(model.getLoot());
 							model.removeLoot();
 						}
@@ -689,7 +693,7 @@ public class GameController {
 	 *Related State Affliction: Combat Menu, Action Menu
 	 */
 	private void runAway() {
-		view.println("You ran away from the monster");
+		view.println("You ran away from the encounter.");
 		view.println("--------------------------------------------------");
 		for(int x = 0; x < model.getPlayer().getCurrentRoom().getRoomMonster().size(); x++) {
 			model.setCurrentMonster(model.getPlayer().getCurrentRoom().getRoomMonster().get(x));
@@ -848,16 +852,19 @@ public class GameController {
 	 *Related State Affliction: Use Item Puzzle(Method: puzzleMenu())
 	 */
 	private void inputNumber(String userInput) {
-		if(model.getNextRoomPuzzle().getPuzzleSolution().equalsIgnoreCase(userInput)) {
+		if(userInput.equalsIgnoreCase("exit")) {
+			model.setState("Puzzle Menu");
+		}
+		else if(model.getNextRoomPuzzle().getPuzzleSolution().equalsIgnoreCase(userInput)) {
 			view.println("You enter the number, and the door opens!");
 			view.println("--------------------------------------------------");
 			checkMonsterRoom();
 
 		}else {
-			view.print("You input the wrong number and get shocked for" + model.getNextRoomPuzzle().getPuzzleDamage() + " damage!");
 			model.getPlayer().takeDmg(model.getNextRoomPuzzle().getPuzzleDamage());
-			view.println("--------------------------------------------------");
+			view.print("You input the wrong number and get shocked for " + model.getNextRoomPuzzle().getPuzzleDamage() + " damage!");
 			showPlayerHealth();
+			view.println("--------------------------------------------------");
 			checkPlayerDeath();
 		}
 
@@ -1066,7 +1073,7 @@ public class GameController {
 						model.setLootList(model.getMonsterLootList());
 						if(!model.getLootList().isEmpty()) {
 							for(int x = 0; x < model.getLootList().size();x++) {
-								view.println("The monster drop " + model.getLoot().getItemName() +" on the floor of the room");
+								view.println("The enemy drops " + model.getLoot().getItemName() +" on the floor of the room");
 								model.getPlayer().getCurrentRoom().addRoomItem(model.getLoot());
 								model.removeLoot();
 							}
