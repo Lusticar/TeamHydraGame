@@ -421,6 +421,7 @@ public class GameModel{
 			player.setPlayerCurrentHealth(100);
 			player.setWeapon(itemList.get("I01"));
 			player.addItemToInventory(itemList.get("I18"));
+			player.addItemToInventory(itemList.get("I10"));
 			player.setCurrentRoom(roomList.get("R01"));
 			player.startGameTime();
 		}catch(Exception e) {

@@ -45,6 +45,7 @@ public class GameController {
 			output += "Please enter your name:\n";
 			break;
 		case "Action Menu":
+			output += model.getMonsterAlive()+"\n";
 			output += ">>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<\n";
 			output += ">>>>>       Action - What will you do?       <<<<<\n";
 			output += ">>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<\n";
@@ -543,7 +544,7 @@ public class GameController {
 				view.println("You don't have any ammo for your weapon!\n");
 			}else {
 
-				view.println("You attack the " + model.getCurrentMonster().getMonsterName() + "!");
+				view.println("You fire your weapon at the " + model.getCurrentMonster().getMonsterName() + "!");
 				model.getCurrentMonster().takeDmg(model.getPlayer().getWeapon().getItemActionValue());
 				model.getPlayer().useWeaponAmmo(model.getPlayer().getWeapon());
 				view.println("The " + model.getCurrentMonster().getMonsterName() + " took " + 
@@ -645,7 +646,7 @@ public class GameController {
 			}
 			else
 			{
-				view.println("You throw the " + model.getPlayer().getSelectedItem().getItemName() + ".");
+				view.println("You used the " + model.getPlayer().getSelectedItem().getItemName() + ".");
 				model.getCurrentMonster().takeDmg(model.getPlayer().getSelectedItem().getItemActionValue());
 				model.getPlayer().removeItemFromInventory(model.getPlayer().getSelectedItem());
 				view.println("The " + model.getCurrentMonster().getMonsterName() + " took " + 
