@@ -10,3 +10,5 @@ Monster Damage:
 33
 Monster Hit Percentage:
 .75
+Monster Type:
+Final Boss

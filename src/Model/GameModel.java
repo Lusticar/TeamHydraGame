@@ -34,7 +34,7 @@ public class GameModel{
 	private String[] itemCode = {"Item Name:","Item ID:","Item Description:",
 			"Item Type:","Item Action Value:","Item Amount:","Item Drop Rate:"};
 	private String[] monsterCode = {"Monster Name:","Monster ID:","Monster Description:",
-			"Monster Health:","Monster Damage:","Monster Hit Percentage:"};
+			"Monster Health:","Monster Damage:","Monster Hit Percentage:","Monster Type:"};
 	private String[] roomCode = {"Room Floor:","Room ID:","Room Description:",
 			"Room Connection:","Room Access:","Room Item:","Room Monster:"};
 	private String[] puzzleCode = {"Puzzle ID:","Puzzle Description:","Puzzle Type:",
