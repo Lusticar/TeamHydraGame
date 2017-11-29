@@ -1,0 +1,14 @@
+Item Name:
+First Aid Med
+Item ID:
+I26
+Item Description:
+A basic medical kit containing gauze, a bottle of antiseptic, and various supplements.
+Item Type:
+Healing
+Item Action Value:
+10
+Item Amount:
+1
+Item Drop Rate:
+.12

@@ -1,0 +1,12 @@
+Puzzle ID:
+P11
+Puzzle Description:
+A faint outline of a door can be made out, but no handle can be discerned. A small, wing-shaped indent can be seen above the outline.
+Puzzle Type:
+Item
+Puzzle Solution:
+I27
+Puzzle Hint:
+The object is likely found on a different floor.
+Puzzle Damage:
+null

@@ -1,0 +1,12 @@
+Puzzle ID:
+P10
+Puzzle Description:
+The entrance to the final room is locked, and it can only be unlocked with the proper authorization card.
+Puzzle Type:
+Item
+Puzzle Solution:
+I27
+Puzzle Hint:
+The authorization card can be found on this sublevel.
+Puzzle Damage:
+null

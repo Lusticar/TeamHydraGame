@@ -1,0 +1,18 @@
+Room Floor:
+Third Floor
+Room ID:
+R34
+Room Description:
+A hidden armament room, filled to the brim with locked weapon cases. However, one container sits ajar, along with a small duffel bag next to it.
+Room Connection:
+R01:South
+Room Access:
+P11:R04
+Room Item:
+I09
+I25
+I07
+I07
+I11
+Room Monster:
+E09

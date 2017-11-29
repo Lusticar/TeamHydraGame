@@ -1,0 +1,14 @@
+Item Name:
+Wing Trinket
+Item ID:
+I28
+Item Description:
+A small, blue-gray-colored object in the shape of a wing. Small pins protrude from the back of the object, suggesting it slots into something.
+Item Type:
+Utility
+Item Action Value:
+null
+Item Amount:
+1
+Item Drop Rate:
+null
