@@ -45,7 +45,6 @@ public class GameController {
 			output += "Please enter your name:\n";
 			break;
 		case "Action Menu":
-			output += model.getMonsterAlive()+"\n";
 			output += ">>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<\n";
 			output += ">>>>>       Action - What will you do?       <<<<<\n";
 			output += ">>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<\n";
