@@ -571,8 +571,13 @@ public class GameController {
 			if(!model.getPlayer().getCurrentRoom().getRoomMonster().isEmpty()) {
 				attackPlayer();
 			}else {
-				model.setState("Action Menu");
-				checkWinCondition();
+				if(checkWinCondition()) {
+					model.setState("Main Menu");
+				}
+				else
+				{
+					model.setState("Action Menu");
+				}
 			}
 		}else {
 			model.setState("Multiple Monster");
@@ -632,8 +637,13 @@ public class GameController {
 				}
 				model.setState("Combat Menu");
 			}else {
-				model.setState("Action Menu");
-				checkWinCondition();
+				if(checkWinCondition()) {
+					model.setState("Main Menu");
+				}
+				else
+				{
+					model.setState("Action Menu");
+				}
 			}
 		}else if(model.checkValidMonster(userInput) && model.getStoredState().equalsIgnoreCase("Throw")) {
 			for(int x = 0; x < model.getPlayer().getCurrentRoom().getRoomMonster().size(); x++) {
@@ -657,9 +667,6 @@ public class GameController {
 				if(checkMonsterDeath()) {
 					view.println("The " + model.getCurrentMonster().getMonsterName() + " slumps over, defeated.");
 					view.println("--------------------------------------------------");
-						if(model.getCurrentMonster().getMonsterType().equalsIgnoreCase("Final Boss")) {
-							checkWinCondition();
-						}
 					setWinCondition();
 					model.getPlayer().getCurrentRoom().removeRoomMonster(model.getCurrentMonster());
 					model.setLootList(model.getMonsterLootList());
@@ -682,11 +689,13 @@ public class GameController {
 					}
 					model.setState("Combat Menu");
 				}else {
-					model.setState("Action Menu");
 					if(checkWinCondition()) {
 						model.setState("Main Menu");
 					}
-					setWinCondition();
+					else
+					{
+						model.setState("Action Menu");
+					}
 				}
 			}
 		}
@@ -1095,6 +1104,7 @@ public class GameController {
 					if(checkMonsterDeath()) {
 						view.println("The " + model.getCurrentMonster().getMonsterName() + " slumps over, defeated.");
 						view.println("--------------------------------------------------");
+						setWinCondition();
 						model.getPlayer().getCurrentRoom().removeRoomMonster(model.getCurrentMonster());
 						model.setLootList(model.getMonsterLootList());
 						if(!model.getLootList().isEmpty()) {
@@ -1112,8 +1122,13 @@ public class GameController {
 						attackPlayer();
 						model.setState("Combat Menu");
 					}else {
-						model.setState("Action Menu");
-						checkWinCondition();
+						if(checkWinCondition()) {
+							model.setState("Main Menu");
+						}
+						else
+						{
+							model.setState("Action Menu");
+						}
 					}
 				}else{
 					model.setStoredState("Throw");
