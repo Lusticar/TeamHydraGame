@@ -3,7 +3,7 @@ EMH1
 Item ID:
 I01
 Item Description:
-A semi-automatic energy pistol that is known for its ammunition conservation.
+A basic, semi-automatic energy pistol that is known for its ammunition conservation.
 Item Type:
 Weapon
 Item Action Value:

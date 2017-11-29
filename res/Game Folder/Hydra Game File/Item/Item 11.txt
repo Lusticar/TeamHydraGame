@@ -3,12 +3,12 @@ Nanomachine Repair Kit
 Item ID:
 I11
 Item Description:
-Various plates that can be added onto your shell to provide a buffering layer from damage.
+Administers a collection of nanomachines that quickly repairs and heals injuries, as well as reinforcing the user's skin and armor.
 Item Type:
 Healing
 Item Action Value:
-35
+40
 Item Amount:
 1
 Item Drop Rate:
-.20
+.04

@@ -9,4 +9,4 @@ Puzzle Solution:
 Puzzle Hint:
 NOR gates only output 1 if both inputs are 0.
 Puzzle Damage:
-25
+20

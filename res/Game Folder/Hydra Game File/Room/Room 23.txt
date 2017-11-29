@@ -3,7 +3,7 @@ First Floor
 Room ID:
 R23
 Room Description:
-This room is the main entrance. There is a metal shield block-ing the front door. There are many bodies of people who tried to escape. 
+The main entrance of the EMPYREAN building. A solid metal blastdoor is shut over the front door, preventing any entrance or escape. Numerous corpses lay against the blastdoor, bodies of employees who tried and failed to escape.
 Room Connection:
 R28:West
 R24:North
@@ -11,6 +11,7 @@ R22:East
 Room Access:
 null
 Room Item:
-I10
+I11
 Room Monster:
+E02
 E09

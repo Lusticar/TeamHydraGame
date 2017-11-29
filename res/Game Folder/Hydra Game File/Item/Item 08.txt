@@ -3,11 +3,11 @@ Z110 Light Machine Gun
 Item ID:
 I08
 Item Description:
-A relatively compact, drum-fed light machine gun that fires 7.62x51mm full metal jacket armor piercing rounds.
+A relatively compact, drum-fed light machine gun that fires armourpiercing rounds.
 Item Type:
 Weapon
 Item Action Value:
-27
+25
 Item Amount:
 1
 Item Drop Rate:

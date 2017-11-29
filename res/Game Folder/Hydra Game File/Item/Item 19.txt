@@ -3,7 +3,7 @@ AAR250 Rail-gun Ammunition
 Item ID:
 I19
 Item Description:
-Ammo for AAR250
+A heavy tungsten-based round used for an AAR250 Railgun
 Item Type:
 Ammo
 Item Action Value:

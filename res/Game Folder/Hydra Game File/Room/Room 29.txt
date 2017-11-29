@@ -3,14 +3,16 @@ Basement
 Room ID:
 R29
 Room Description:
-No Description
+A corridor that looks significantly different compared to the rest of the facility. Gray concrete makes up the walls, floor, and ceiling. Wires can be seen snaking all over the room, though a majority of them flow through doors to the east and south.
 Room Connection:
 R30:East
 R31:South
 R20:Staircase
 Room Access:
+P04:R20
 P08:R31
 Room Item:
-null
+I11
 Room Monster:
-E07
+E03
+E09

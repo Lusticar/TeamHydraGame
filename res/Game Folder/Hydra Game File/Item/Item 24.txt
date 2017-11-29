@@ -3,7 +3,7 @@ Z110 Light Machine Gun Ammunition
 Item ID:
 I24
 Item Description:
-Ammo for Z110
+7.62x51mm full metal jacket rounds utilized by a Z110 Light Machine Gun.
 Item Type:
 Ammo
 Item Action Value:

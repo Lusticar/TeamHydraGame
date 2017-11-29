@@ -3,15 +3,16 @@ Third Floor
 Room ID:
 R04
 Room Description:
-An elongated room that has sectioned off areas filled with various obsta-cles used for training autonomous or semi-autonomous machines. The courses show extensive damage from the numerous live fire exercises done in these environments.
+An elongated room that has sectioned off areas filled with various obstacles used for training autonomous or semi-autonomous machines. The courses show extensive damage from the numerous live-fire exercises done in these environments.
 Room Connection:
 R05:North
 R07:East
 R03:Staircase
+R34:South
 Room Access:
 P01:R07
 Room Item:
-I01
-I04
+I18
+I20
 Room Monster:
-null
+E01

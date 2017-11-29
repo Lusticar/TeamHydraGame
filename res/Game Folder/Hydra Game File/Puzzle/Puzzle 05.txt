@@ -9,4 +9,4 @@ Puzzle Solution:
 Puzzle Hint:
 AND gates only output 1 if both inputs are also 1.
 Puzzle Damage:
-25
+20

@@ -3,7 +3,7 @@ Third Floor
 Room ID:
 R06
 Room Description:
-The expansive room reminiscent of an airport terminal overlooks the con-necting substation in which the trams dock and drop off personnel who are commuting. Screens that would normally show arrival and departure times now flash lockdown messages across their displays. (A contingent of non-hostile military androids can be seen guarding the main exit to the substation)
+This expansive room, reminiscent of an airport terminal, overlooks the connecting substation in which the trams dock and drop off personnel who are commuting. Screens that would normally show arrival and departure times now flash lockdown messages across their displays. A contingent of non-hostile androids can be seen guarding the main exit to the substation.
 Room Connection:
 R05:South Left
 R08:South Right
@@ -13,4 +13,4 @@ null
 Room Item:
 I17
 Room Monster:
-null
+E01

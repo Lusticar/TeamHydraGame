@@ -3,7 +3,7 @@ First Floor
 Room ID:
 R28
 Room Description:
-There are many desks. There are a few meeting rooms. This is where the bulk of the business is done. Several desks have been knocked over from the panic.
+A meeting room with numerous desks and projection monitors. This is where the bulk of the business is done. Several tables and chairs have been knocked over from the panic.
 Room Connection:
 R23:East
 R27:North
@@ -12,4 +12,5 @@ null
 Room Item:
 I12
 Room Monster:
-null
+E01
+E03

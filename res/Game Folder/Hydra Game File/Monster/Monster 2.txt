@@ -3,7 +3,7 @@ Level 2 Security Droid
 Monster ID:
 E02
 Monster Description:
-A bipedal lightweight armored security unit that stands at six feet and carriers a VF6 ballistics assault rifle with a stun attachment.
+A bipedal security robotic that carries a VF6 Ballistics Assault Rifle with a stun attachment. This unit is plated with multiple layers of red, lightweight armor and is deployed to deter aggressors.
 Monster Health:
 25
 Monster Damage:

@@ -3,7 +3,7 @@ Roof
 Room ID:
 R03
 Room Description:
-There is a staircase going down one floor and two doors. The metal safety shields have removed outside light as lights below flicker.
+A balcony overlooking the front of the EMPYREAN building, with a staircase leading down. The metal saftey railings have been disabled, and lights can be seen flickering below.
 Room Connection:
 R01:North Left
 R02:North Right

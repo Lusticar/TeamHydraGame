@@ -3,10 +3,10 @@ Level 3 Security Droid
 Monster ID:
 E03
 Monster Description:
-A more heavily armored and bulkier security unit that has pacifying coun-termeasures built into its frame. The droid carries a high-caliber assault rifle that can fire armor-piercing rounds.
+A blue, armored robotic with pacifying countermeasures built into its frame. This unit is also equipped with a high-caliber V3 Assault Rifle that fires armourpiercing rounds.
 Monster Health:
 35
 Monster Damage:
-14
+12
 Monster Hit Percentage:
 .80

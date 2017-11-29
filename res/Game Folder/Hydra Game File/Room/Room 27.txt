@@ -3,7 +3,7 @@ First Floor
 Room ID:
 R27
 Room Description:
-This room is the bottom of a stairwell. There is an exit sign near the door to the South and bloody handprint on the door to the North.
+This room is the bottom of a stairwell. There is an exit sign near the door to the south and bloody handprint on the door to the north.
 Room Connection:
 R26:North
 R28:South
@@ -11,6 +11,6 @@ R18:Staircase
 Room Access:
 P06:R26
 Room Item:
-I02
+I08
 Room Monster:
-E06
+null

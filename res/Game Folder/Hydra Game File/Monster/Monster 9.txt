@@ -1,12 +1,12 @@
 Monster Name:
-AT, Armored Turret
+GAT Armored Turret
 Monster ID:
 E09
 Monster Description:
-Ceiling mounted Automated Machine Gun Turret, when active will target any-thing in its vicinity.
+A ceiling-mounted automated turret equipped with a G24 Machine Gun. When active, it will target any hostiles in the vicinity. Although heavily armored, its munitions are designed to incapacitate rather than to kill.
 Monster Health:
-50
+60
 Monster Damage:
-15
+3
 Monster Hit Percentage:
 .88

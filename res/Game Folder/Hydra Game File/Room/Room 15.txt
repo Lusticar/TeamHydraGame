@@ -11,6 +11,6 @@ R18:North Left
 Room Access:
 P05:R12
 Room Item:
-I12
+I11
 Room Monster:
-E02
+E03

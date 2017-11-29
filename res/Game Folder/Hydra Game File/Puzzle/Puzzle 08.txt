@@ -1,12 +1,12 @@
 Puzzle ID:
 P08
 Puzzle Description:
-There is an unprotected terminal connected to the door with damaged circuitry, and the missing section can be translated into a logic gate format. A NOT gate has an input of 1, and a NAND gate has an input of 1 and 0. Their respective outputs are plugged into a EXOR gate. The EXOR output is then entered in alongside a 1 value into a AND gate. What is the final numerical output?
+There is an unprotected terminal connected to the door with damaged circuitry, and the missing section can be translated into a logic gate format. A NOT gate has an input of 1, and a NAND gate has an input of 1 and 0. Their respective outputs are plugged into a XOR gate. The XOR output is then entered in alongside a 1 value into a AND gate. What is the final numerical output?
 Puzzle Type:
 Input
 Puzzle Solution:
 1
 Puzzle Hint:
-EXOR gates only output 1 when their inputs are both 1
+XOR gates only output 1 when their inputs are both 1
 Puzzle Damage:
-25
+20

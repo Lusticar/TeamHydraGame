@@ -7,6 +7,6 @@ Item
 Puzzle Solution:
 I17
 Puzzle Hint:
-Card can be found in room 14
+The authorization card can be found on Floor 3.
 Puzzle Damage:
 null

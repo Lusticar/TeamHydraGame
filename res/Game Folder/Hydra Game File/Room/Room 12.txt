@@ -11,6 +11,6 @@ R09:Staircase
 Room Access:
 P05:R15
 Room Item:
-null
+I12
 Room Monster:
 null

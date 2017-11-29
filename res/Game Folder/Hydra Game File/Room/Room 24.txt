@@ -11,6 +11,6 @@ R25:North
 Room Access:
 null
 Room Item:
-null
+I12
 Room Monster:
-null
+E04

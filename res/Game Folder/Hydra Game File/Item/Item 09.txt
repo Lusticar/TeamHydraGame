@@ -3,7 +3,7 @@ LR-255 Missile Launcher
 Item ID:
 I09
 Item Description:
-This composite based launcher fires an auto-guided high-explosive anti-tank warhead.
+This composite-based launcher fires an auto-guided missile towards hostiles.
 Item Type:
 Weapon
 Item Action Value:

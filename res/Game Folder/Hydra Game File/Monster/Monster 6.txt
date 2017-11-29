@@ -3,10 +3,10 @@ CQB SABRE Bot
 Monster ID:
 E06
 Monster Description:
-A lightly armored android with en-hanced movement, ballistics shield, and an assortment of melee weapons. This unit focuses on close quarters combat, and will try to disorient opponents through high precision blinding lights that target visual sensors or by electro-magnetic interference.
+A lightly-armored quad android featuring enhanced hydraulic movement, ballistic shielding, and is equipped with an assortment of close-quarter weapons. This deceptive robotic will focus on disorienting hostiles with blinding lights and EM interference. 
 Monster Health:
 35
 Monster Damage:
 18
 Monster Hit Percentage:
-100
+.90

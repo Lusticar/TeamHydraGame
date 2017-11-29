@@ -1,12 +1,12 @@
 Monster Name:
-Deprecator Heavy Tank
+DEPRECATOR Heavy Tank
 Monster ID:
 E08
 Monster Description:
-This armored unit features an angular frame, and is treated in a carbon-black R.A.M. coating in order to reduce its radar cross section. Its composite plating has also incorporated reactive armor to go along with its suite of active protec-tion systems and anti-infantry short range missiles. The 125mm main gun is assisted by a state of the art ballistics fire control computer, so it is advisable that the tank be disabled in some way prior to engagement.
+A prototype armored unit featuring an angular frame, and is treated in a carbon-black R.A.M. coating in order to reduce its radar cross section. Its composite plating has also incorporated reactive armor to go along with its suite of active protection systems and anti-infantry short range missiles. The 125mm Main Gun is assisted by a state-of-the-art ballistics fire control system.
 Monster Health:
 100
 Monster Damage:
-100
+33
 Monster Hit Percentage:
-100
+.75

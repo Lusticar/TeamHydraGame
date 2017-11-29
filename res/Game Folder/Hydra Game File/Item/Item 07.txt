@@ -3,11 +3,11 @@ EMP Grenade
 Item ID:
 I07
 Item Description:
-Releases a short burst of electromag-netic energy that can disable smaller foes and hinder larger enemies.
+Releases a short burst of electromagnetic energy that can disable smaller robotics and hinder larger ones.
 Item Type:
 Throwable
 Item Action Value:
-40
+50
 Item Amount:
 1
 Item Drop Rate:

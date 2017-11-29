@@ -3,7 +3,7 @@ T97 Energy Rifle Ammunition
 Item ID:
 I22
 Item Description:
-Ammo for T97 Energy Rifle
+High-density fuel cells used to power a T97 Energy Rifle.
 Item Type:
 Ammo
 Item Action Value:

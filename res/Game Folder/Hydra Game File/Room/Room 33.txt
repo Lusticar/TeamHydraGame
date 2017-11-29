@@ -3,12 +3,13 @@ Basement
 Room ID:
 R33
 Room Description:
-There is a single computer in this room on a desk. There is very few wires and all of them go to the computer from the walls. 
+A large, yet empty room containing a solitary computer on a desk. A few wires connect the computer to each of the walls.
 Room Connection:
 R32:East
 Room Access:
-null
+P10:R32
 Room Item:
 null
 Room Monster:
-null
+E08
+E09

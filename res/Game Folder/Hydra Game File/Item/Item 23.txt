@@ -3,7 +3,7 @@ RS15 KE-Rifle Ammunition
 Item ID:
 I23
 Item Description:
-Ammo for RS15 KE-Rifle
+Armourpiercing discarding sabot rounds for a RS15 KE-Rifle.
 Item Type:
 Ammo
 Item Action Value:

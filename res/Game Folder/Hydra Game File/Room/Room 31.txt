@@ -3,7 +3,7 @@ Basement
 Room ID:
 R31
 Room Description:
-There are wires coming in and out of the walls to the North and South. The room edges are lined with old legacy technolo-gy. Modems and Routers and HUBs and switches are every-where. There is a large machine that looks like it tests projec-tiles and has a bin of old computers to test. The wall facing away from the machine has bits of technology debris every-where
+Wires reach in and out of the walls to the north and south. The room is lined with seemingly outdated technology, including modems, routers, HUBs, and various switches. A bin containing antiquated desktops sits next to a large machine in the corner of the room, which is apparently designed to launch some kind of projectile. Electronic debris are scattered across the floor on the opposite side of the machine.
 Room Connection:
 R29:North Left
 R30:North Right
@@ -11,6 +11,7 @@ R32:South
 Room Access:
 P08:R29
 Room Item:
-null
+I11
+I25
 Room Monster:
 null

@@ -3,7 +3,7 @@ Third Floor
 Room ID:
 R08
 Room Description:
-Dark grey marble lines the floor, walls, and columns of this expansive corridor. Large cutouts on the side filled with electro transparent glass designate the office spaces of the company’s administrative personnel.
+Dark grey marble make up the floor, walls, and columns of this expansive corridor. Large cutouts on the side filled with electro transparent glass designate the office spaces of the company’s administrative personnel.
 Room Connection:
 R06:North
 R07:South
@@ -11,6 +11,6 @@ R10:East
 Room Access:
 null
 Room Item:
-null
+I03
 Room Monster:
-E01
+null

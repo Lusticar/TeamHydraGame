@@ -3,15 +3,16 @@ First Floor
 Room ID:
 R20
 Room Description:
-A room storing various canisters of foodstuffs and medical supplies. Many of the food cansiters are untouched, but all of the medical supplies have been looted.
+A room storing various canisters of foodstuffs and medical supplies. Many of the food cansiters are untouched, but many of the medical supplies have been looted. Upon further inspection, a collection of crates hide a trapdoor.
 Room Connection:
 R21:South
 R25:West
 R29:Staircase
 R00:Elevator
 Room Access:
+P04:R29
 P07:R21
 Room Item:
-null
+I10
 Room Monster:
 null

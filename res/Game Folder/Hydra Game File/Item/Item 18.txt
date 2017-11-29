@@ -3,7 +3,7 @@ EMH1 Ammunition
 Item ID:
 I18
 Item Description:
-Ammo for EMH1
+A lightweight battery pack for EMH1 pistols.
 Item Type:
 Ammo
 Item Action Value:

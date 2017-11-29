@@ -3,7 +3,7 @@ Elevator Key
 Item ID:
 I13
 Item Description:
-An important looking authorization card. Used to access the underground level.
+A worn access key used to activate the building's elevator.
 Item Type:
 Utility
 Item Action Value:

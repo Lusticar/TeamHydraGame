@@ -9,6 +9,7 @@ R23:West
 Room Access:
 null
 Room Item:
-null
+I12
+I13
 Room Monster:
-null
+E03

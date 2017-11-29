@@ -7,6 +7,6 @@ Input
 Puzzle Solution:
 1725
 Puzzle Hint:
-The first two digits are 17
+The first two digits are "17".
 Puzzle Damage:
 5

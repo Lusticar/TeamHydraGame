@@ -7,6 +7,6 @@ Item
 Puzzle Solution:
 I16
 Puzzle Hint:
-Located in room 10
+The ID card can be found on Floor 2.
 Puzzle Damage:
 null

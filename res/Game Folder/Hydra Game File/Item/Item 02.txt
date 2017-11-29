@@ -1,9 +1,9 @@
 Item Name:
-AAR250 Rail-gun
+AAR250 Railgun
 Item ID:
 I02
 Item Description:
-This portable electromagnetic projectile weapon utilizes magnetic rails to accelerate a tungsten based round to unprecedented speeds.
+This portable electromagnetic projectile weapon utilizes magnetic rails to accelerate a tungsten-based round to unprecedented speeds.
 Item Type:
 Weapon
 Item Action Value:

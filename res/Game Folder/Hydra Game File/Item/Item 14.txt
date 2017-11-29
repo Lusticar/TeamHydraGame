@@ -3,7 +3,7 @@ Blue Post-it Note
 Item ID:
 I14
 Item Description:
-A post-it posted onto a desk near the door. On the note reads passcode 1725
+A post-it that was stuck to a desk. The note has a number scrawled on it: "1725"
 Item Type:
 Utility
 Item Action Value:

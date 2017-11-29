@@ -3,11 +3,11 @@ Hacking Tool
 Item ID:
 I12
 Item Description:
-Allows the user to hack an enemy for damage
+Originally used for maintinence, this device can be used to hack and corrupt robotic systems.
 Item Type:
 Throwable
 Item Action Value:
-15
+25
 Item Amount:
 1
 Item Drop Rate:

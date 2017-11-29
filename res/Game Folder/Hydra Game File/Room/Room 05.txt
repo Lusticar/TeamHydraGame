@@ -10,6 +10,6 @@ R06:North
 Room Access:
 null
 Room Item:
-null
+I26
 Room Monster:
-E01
+null

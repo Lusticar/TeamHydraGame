@@ -10,6 +10,7 @@ R27:South
 Room Access:
 P06:R27
 Room Item:
-I05
+I10
+I12
 Room Monster:
-null
+E04

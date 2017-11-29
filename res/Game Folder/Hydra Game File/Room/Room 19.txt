@@ -3,13 +3,13 @@ Second Floor
 Room ID:
 R19
 Room Description:
-A contrasting rectangular room with white colored sides, black furni-ture, grey carpet, and ambient lights at the top corners. Shattered dis-plays and damaged doors are located on either side of the hall.
+A contrasting rectangular room with white colored sides, black furniture, grey carpet, and ambient lights at the top corners. Shattered displays and damaged doors are located on either side of the hall.
 Room Connection:
 R17:East
 R18:South
 Room Access:
 null
 Room Item:
-null
+I12
 Room Monster:
-E04
+null

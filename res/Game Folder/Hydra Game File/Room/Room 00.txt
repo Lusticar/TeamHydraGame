@@ -3,7 +3,7 @@ Elevator
 Room ID:
 R00
 Room Description:
-An elevator that lets you navigate through the building
+An elevator that lets you navigate through the building.
 Room Connection:
 R02:Roof
 R11:Floor 3

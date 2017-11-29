@@ -3,11 +3,11 @@ VECTOR V5 Submachine Gun
 Item ID:
 I03
 Item Description:
-The V5 with its newer recoil mitigation system and improved internals allows for a substantial increase in firing rate when compared to past generations.
+A rifle featuring improved internals and a recoil migation system, allowing a substantial increase in fire rate.
 Item Type:
 Weapon
 Item Action Value:
-15
+10
 Item Amount:
 1
 Item Drop Rate:

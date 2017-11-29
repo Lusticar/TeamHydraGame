@@ -9,4 +9,4 @@ Puzzle Solution:
 Puzzle Hint:
 NAND gates only output 0 if both inputs are 1.
 Puzzle Damage:
-25
+20

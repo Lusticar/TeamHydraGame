@@ -3,13 +3,14 @@ Third Floor
 Room ID:
 R07
 Room Description:
-Additive manufacturing machines are located on one side of the room, and electronic testing/measurement instruments are present alongside them. There are numerous stations that possess computer-aided design software used for rapid prototyping.
+Additive manufacturing machines can be seen on one side of the room, and electronic testing/measurement instruments are present alongside them. There are numerous stations that possess computer-aided design software used for rapid prototyping.
 Room Connection:
 R04:West
 R08:North
 Room Access:
 P01:R04
 Room Item:
-null
+I14
+I12
 Room Monster:
-null
+E04

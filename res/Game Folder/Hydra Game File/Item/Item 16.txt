@@ -3,7 +3,7 @@ ID Card 477
 Item ID:
 I16
 Item Description:
-An ID Card to open a door of some sort.
+A well-worn ID card used to open a door of some sort. The card is too faded to read the owner's name.
 Item Type:
 Utility
 Item Action Value:

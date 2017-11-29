@@ -3,10 +3,10 @@ Level 1 Security Droid
 Monster ID:
 E01
 Monster Description:
-A bipedal lightweight security unit that stands at six feet and carriers an electric baton and a semi-automatic low-energy pistol
+A bipedal robotic fitted with yellow, lightweight armor. Standing six feet tall, this unit is equipped with a stun baton and a low-energy pistol to monitor low-security areas.
 Monster Health:
 15
 Monster Damage:
 5
 Monster Hit Percentage:
-.60
+.50

@@ -7,6 +7,6 @@ Input
 Puzzle Solution:
 975806
 Puzzle Hint:
-Last two digits are 06
+The last two digits are "06"
 Puzzle Damage:
 5

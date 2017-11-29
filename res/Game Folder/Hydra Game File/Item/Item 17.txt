@@ -3,7 +3,7 @@ Basement Authorization Card
 Item ID:
 I17
 Item Description:
-An important looking authorization card. Used to access the underground level.
+An important looking authorization card. Used to access the underground sector.
 Item Type:
 Utility
 Item Action Value:

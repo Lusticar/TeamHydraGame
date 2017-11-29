@@ -3,7 +3,7 @@ SIZ MCXE2 Ammunition
 Item ID:
 I21
 Item Description:
-Ammo for SIZ MCXE2
+Airburst explosive 7.62x39mm rounds to be used with a SIZ MCXE2.
 Item Type:
 Ammo
 Item Action Value:

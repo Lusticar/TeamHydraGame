@@ -3,7 +3,7 @@ LR-255 Missile Launcher Ammunition
 Item ID:
 I25
 Item Description:
-Ammo for LR-255
+A high-explosive anti-tank warhead usable only with a LR-255 Missile Launcher. Handle with care.
 Item Type:
 Ammo
 Item Action Value:

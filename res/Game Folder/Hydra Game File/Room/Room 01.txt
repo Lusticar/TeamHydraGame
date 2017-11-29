@@ -3,14 +3,13 @@ Roof
 Room ID:
 R01
 Room Description:
-A breezy Helicopter landing pad with two metal doors. The landing pad sits on top of the building and the lights of govern-ment vehicles can be seen below.
+A breezy helicopter landing pad with metal doors to the east and the south. The landing pad sits on top of the building and the lights of government vehicles can be seen below.
 Room Connection:
 R02:East
 R03:South
 Room Access:
 null
 Room Item:
-I01
-I04
+null
 Room Monster:
 null

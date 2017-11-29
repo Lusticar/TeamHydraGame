@@ -3,11 +3,11 @@ SIZ MCXE2
 Item ID:
 I04
 Item Description:
-This lightweight semi-automatic carbine features a short-stroke gas piston system, and is fitted to fire airburst explosive 7.62x39mm rounds.
+This lightweight, semi-automatic carbine features a short-stroke gas piston system to fire munitions.
 Item Type:
 Weapon
 Item Action Value:
-20
+15
 Item Amount:
 1
 Item Drop Rate:

@@ -10,6 +10,7 @@ R24:West
 Room Access:
 P07:R20
 Room Item:
+I02
 I07
 Room Monster:
 E05

@@ -3,7 +3,7 @@ Second Floor
 Room ID:
 R18
 Room Description:
-Numerous tables and chairs are strewn about horizontally, and scattered among them are dispensing stations for food and drinks. Plates, utensils, and other tableware have been left as they were right before the evacua-tion.  
+Numerous tables and chairs are strewn about horizontally, and scattered among them are dispensing stations for food and drinks. Plates, utensils, and other tableware have been left as they were right before the evacuation.  
 Room Connection:
 R15:South
 R19:North
@@ -11,6 +11,6 @@ R27:Staircase
 Room Access:
 null
 Room Item:
-I04
+I26
 Room Monster:
 null

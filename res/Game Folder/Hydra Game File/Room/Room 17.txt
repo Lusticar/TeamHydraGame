@@ -10,6 +10,7 @@ R19:West
 Room Access:
 P03:R16
 Room Item:
-I11
+I10
 Room Monster:
-null
+E01
+E04

@@ -3,7 +3,7 @@ Basement
 Room ID:
 R30
 Room Description:
-There are wire coming in and out of the room to the West and South. The wires are connected to many servers. The servers appear to be offline for security reasons. There is also pipe connected to the servers coming from the ceiling.
+There are wires coming in and out of the room to the west and south. These wires are connected to many servers, which appear to be offline. Several pipes of various sizes connect from the servers to the the ceiling.
 Room Connection:
 R29:West
 R31:South
@@ -11,5 +11,8 @@ Room Access:
 null
 Room Item:
 I06
+I23
+I11
+I27
 Room Monster:
-null
+E07

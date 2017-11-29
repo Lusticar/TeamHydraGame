@@ -3,7 +3,7 @@ Automated Repair Kit
 Item ID:
 I10
 Item Description:
-Initiates a repair sequences that restores some of your health.  
+Initiates a repair sequence that sanitizes, treats, and bandages wounds.
 Item Type:
 Healing
 Item Action Value:
@@ -11,4 +11,4 @@ Item Action Value:
 Item Amount:
 1
 Item Drop Rate:
-.20
+.08

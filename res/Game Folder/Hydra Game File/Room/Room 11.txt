@@ -11,6 +11,6 @@ R00:Elevator
 Room Access:
 null
 Room Item:
-null
+I26
 Room Monster:
 null

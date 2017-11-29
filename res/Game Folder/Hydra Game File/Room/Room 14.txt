@@ -3,14 +3,14 @@ Second Floor
 Room ID:
 R14
 Room Description:
-This location manages and controls the various communications traffic within the facility. A large screen flanked by multiple smaller ones co-vers the forward-facing wall. Throughout the room there are stations with multiple monitors used for analyzing network operations.
+This location manages and controls the various communications traffic within the facility. A large screen flanked by multiple smaller ones covers the forward-facing wall. Throughout the room there are stations with multiple monitors used for analyzing network operations.
 Room Connection:
 R00:Elevator
 R13:South
 Room Access:
 null
 Room Item:
-I08
+I26
 I16
 Room Monster:
 null

@@ -3,13 +3,15 @@ Basement
 Room ID:
 R32
 Room Description:
-The room isn’t as wired as the others. It has new tech that hasn’t been advertised yet lying around. There’s lots of notes and binders labeled “Prototype 257” through “Prototype 302”. There is a door that says do not enter
+A narrow office space that isn't wired like the other rooms. Never-before-seeen EMPYREAN technology and appliances are placed around the room. File cabinets line the southern wall, labeled from "Prototype 257" up to "Prototype 302". A door to the west is labeled, "NO ENRTY WITHOUT AUTHORIZATION" and appears to be locked with a key card.
 Room Connection:
 R31:North
 R33:West
 Room Access:
-null
+P10:R33
 Room Item:
-I09
+I11
+I28
 Room Monster:
-E08
+E04
+E09

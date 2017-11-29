@@ -3,7 +3,7 @@ Red Post-it Note
 Item ID:
 I15
 Item Description:
-A post-it posted with a number 975806 on it
+A post-it that was stuck to a doorframe. "975806" is written on the note.
 Item Type:
 Utility
 Item Action Value:
