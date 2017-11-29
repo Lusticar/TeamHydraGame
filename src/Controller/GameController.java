@@ -10,6 +10,7 @@ public class GameController {
 	GameModel model = new GameModel();
 	GameView view = new GameView();
 	private Scanner input = new Scanner(System.in);
+	boolean winCondition = false;
 
 	/*Initialize the Game first with the
 	 *game state "Main Menu"
@@ -654,6 +655,9 @@ public class GameController {
 				if(checkMonsterDeath()) {
 					view.println("The " + model.getCurrentMonster().getMonsterName() + " slumps over, defeated.");
 					view.println("--------------------------------------------------");
+						if(model.getCurrentMonster().getMonsterType().equalsIgnoreCase("Final Boss")) {
+							checkWinCondition();
+						}
 					model.getPlayer().getCurrentRoom().removeRoomMonster(model.getCurrentMonster());
 					model.setLootList(model.getMonsterLootList());
 					if(!model.getLootList().isEmpty()) {
@@ -664,6 +668,7 @@ public class GameController {
 						}
 						view.println("--------------------------------------------------");
 					}
+					setWinCondition();
 					model.decreaseMonsterAlive();
 	
 				}
@@ -675,7 +680,10 @@ public class GameController {
 					model.setState("Combat Menu");
 				}else {
 					model.setState("Action Menu");
-					checkWinCondition();
+					if(checkWinCondition()) {
+						model.setState("Main Menu");
+					}
+					setWinCondition();
 				}
 			}
 		}
@@ -768,6 +776,20 @@ public class GameController {
 			model.setState("Main Menu");
 		}
 	}
+	
+	/*Check to see if the win condition is met and
+	 *if there is zero enemy alive then the you win
+	 *and sent to back to the main menu
+	 *Parent Method: attackMonster(), attackMultipleMonster()
+	 *Related State Affliction: Main Menu, Combat Menu, Multiple Monster
+	 */
+	private void setWinCondition() {	
+			if(model.getCurrentMonster().getMonsterType().equalsIgnoreCase("Final Boss")) {
+				winCondition = true;
+			}else if(model.getMonsterAlive() == 0) {
+				winCondition = true;
+			}
+	}
 
 	/*Check to see if the win condition is met and
 	 *if there is zero enemy alive then the you win
@@ -775,15 +797,16 @@ public class GameController {
 	 *Parent Method: attackMonster(), attackMultipleMonster()
 	 *Related State Affliction: Main Menu, Combat Menu, Multiple Monster
 	 */
-	private void checkWinCondition() {
-		if(model.getMonsterAlive() == 0) {	
+	private boolean checkWinCondition() {	
+		if(winCondition == true) {
 			view.println("\n\n--------------------------------------------------");
 			view.println("||||||||||||||||||||||||||||||||||||||||||||||||||");
 			view.println("=====        YOU WIN!    -    VICTORY        =====");
 			view.println("||||||||||||||||||||||||||||||||||||||||||||||||||");
 			view.println("--------------------------------------------------\n\n\n");
-			model.setState("Main Menu");
+			return true;
 		}
+		return false;
 	}
 
 

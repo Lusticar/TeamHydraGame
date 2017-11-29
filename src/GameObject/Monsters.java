@@ -14,6 +14,7 @@ public class Monsters implements Serializable{
 	private int monsterCurrentHealth;
 	private int monsterDamage;
 	private double monsterHitPercentage;
+	private String monsterType;
 
 	//Create Default Object
 	public Monsters() {
@@ -24,11 +25,12 @@ public class Monsters implements Serializable{
 		this.monsterCurrentHealth = monsterMaxHealth;
 		this.monsterDamage = 00;
 		this.monsterHitPercentage = 0;
+		this.monsterType = "Error";
 	}
 
 	//Create Object with set parameter
 	public Monsters(String monsterID, String monsterName, String monsterDesc, int monsterMaxHealth, int monsterDamage,
-			double monsterHitPercentage) {
+			double monsterHitPercentage, String monsterType) {
 		this.monsterId = monsterID;
 		this.monsterName = monsterName;
 		this.monsterDesc = monsterDesc;
@@ -36,6 +38,7 @@ public class Monsters implements Serializable{
 		this.monsterCurrentHealth = monsterMaxHealth;
 		this.monsterDamage = monsterDamage;
 		this.monsterHitPercentage = monsterHitPercentage;
+		this.monsterType = monsterType;
 	}
 
 
@@ -45,6 +48,13 @@ public class Monsters implements Serializable{
 	}
 	public String getMonsterId() {
 		return monsterId;
+	}
+	
+	public String getMonsterType() {
+		return monsterType;
+	}
+	public void setMonsterType(String monsterType){
+		this.monsterType = monsterType;
 	}
 
 

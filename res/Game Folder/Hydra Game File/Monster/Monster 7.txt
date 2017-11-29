@@ -10,3 +10,5 @@ Monster Damage:
 25
 Monster Hit Percentage:
 .90
+Monster Type:
+Mini Boss

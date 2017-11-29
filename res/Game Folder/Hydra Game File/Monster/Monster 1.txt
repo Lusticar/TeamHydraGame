@@ -10,3 +10,5 @@ Monster Damage:
 5
 Monster Hit Percentage:
 .50
+Monster Type:
+Grunt

@@ -292,6 +292,9 @@ public class GameModel{
 						case "Monster Hit Percentage:":
 							monsterObject.setMonsterHitPercentage(Double.parseDouble(fileLine));
 							break;	
+						case "Monster Type:":
+							monsterObject.setMonsterType(fileLine);
+							break;	
 						case "Room Floor:":
 							roomObject.setRoomFloor(fileLine);
 							break;
