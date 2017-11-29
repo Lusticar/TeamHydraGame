@@ -553,6 +553,7 @@ public class GameController {
 				if(checkMonsterDeath()) {
 					view.println("The " + model.getCurrentMonster().getMonsterName() + " slumps over, defeated.");
 					view.println("--------------------------------------------------");
+					setWinCondition();
 					model.getPlayer().getCurrentRoom().removeRoomMonster(model.getCurrentMonster());
 					model.setLootList(model.getMonsterLootList());
 					if(!model.getLootList().isEmpty()) {
@@ -609,6 +610,7 @@ public class GameController {
 				if(checkMonsterDeath()) {
 					view.println("The " + model.getCurrentMonster().getMonsterName() + " slumps over, defeated.");
 					view.println("--------------------------------------------------");
+					setWinCondition();
 					model.getPlayer().getCurrentRoom().removeRoomMonster(model.getCurrentMonster());
 					model.setLootList(model.getMonsterLootList());
 					if(!model.getLootList().isEmpty()) {
@@ -658,6 +660,7 @@ public class GameController {
 						if(model.getCurrentMonster().getMonsterType().equalsIgnoreCase("Final Boss")) {
 							checkWinCondition();
 						}
+					setWinCondition();
 					model.getPlayer().getCurrentRoom().removeRoomMonster(model.getCurrentMonster());
 					model.setLootList(model.getMonsterLootList());
 					if(!model.getLootList().isEmpty()) {
@@ -668,7 +671,7 @@ public class GameController {
 						}
 						view.println("--------------------------------------------------");
 					}
-					setWinCondition();
+					
 					model.decreaseMonsterAlive();
 	
 				}
